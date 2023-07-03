@@ -137,6 +137,15 @@ span {
   float: left;
   top: 30px;
 }
+.view:hover {
+  background-color: #ffe500;
+  color: #000000;
+  border-color: #ffe500;
+}
+
+.two-d {
+  margin-left: 10px;
+}
 
 /* .carousel-slide:hover {
   border: 2px solid rgb(225, 221, 22);
