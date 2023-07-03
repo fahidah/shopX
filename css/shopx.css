@@ -168,3 +168,28 @@ span {
   width: 300px;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 480px) {
+  .big-text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .small-text {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .item {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .see {
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  .heading {
+    top: 5%;
+  }
+  .carousel-container {
+    margin-top: 112px;
+  }
+}
