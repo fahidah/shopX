@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne&display=swap");
+body {
+  /*background-image:linear-gradient(180deg, rgba(18, 18, 18, 0), #121212),url("background.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+  font-family: "Syne", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.myvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  /* background-image:linear-gradient(180deg, rgba(8, 8, 8, 0)10%, #343131); */
+  opacity: 0.8;
+  background-image: linear-gradient(
+    180deg,
+    rgba(18, 18, 18, 0) -56.2%,
+    #121212 97.56%
+  );
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.nav {
+  margin: 0;
+  overflow: hidden;
+  top: 0;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(18, 18, 18, 0.6);
+  border-bottom: 1px solid;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  justify-content: space-between;
+  padding: 15px 40px;
+  position: relative;
+}
+.logo {
+  padding: 1px 24px;
+}
+.items {
+  width: 100px;
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.item {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  margin-left: 50px;
+}
+.end {
+  justify-content: space-around;
+  padding: 1px 24px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.see {
+  color: #ffffff;
+  margin-right: 30px;
+}
+.action {
+  border-radius: 39px;
+  background-color: #ffffff;
+  border: 1px solid #fff;
+  padding: 10px 24px 10px 24px;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Syne", sans-serif;
+  color: #000000;
+}
+
+.heading {
+  position: relative;
+  top: 10%;
+  margin-left: 60px;
+  align-items: flex-start;
+}
+.big-text {
+  font-weight: 700;
+  font-size: 60px;
+  color: white;
+  width: 800px;
+  text-align: left;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 65px;
+  padding-bottom: 3%;
+}
+span {
+  color: #ffe500;
+}
+.small-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  /* width: 700px; */
+  /* height: 60px; */
+  margin: 0px;
+  text-align: left;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.view {
+  border-radius: 93px;
+  height: 40px;
+  width: 200px;
+  font-family: "Syne", sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  border-color: #ffe500;
+  padding: 10px 32px 10px 32px;
+  align-self: left;
+  float: left;
+  top: 30px;
+}
+
+/* .carousel-slide:hover {
+  border: 2px solid rgb(225, 221, 22);
+} */
+
+.carousel-container {
+  /* width: 80%; */
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  /* Add any additional styles you need */
+}
+
+.carousel {
+  display: flex;
+  /* overflow: hidden; */
+  width: 100%;
+  margin: 40px;
+  /* max-height: 400px; Set your desired height for the carousel */
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carousel-slide {
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+}
